@@ -1,0 +1,5 @@
+make: Entering directory `/Users/nr/Development/allanger/non-programming-languages'
+pip3 install -r plugins/mkdocs-with-confluence/requirements.txt
+pip install -e plugins/mkdocs-with-confluence/
+make: Leaving directory `/Users/nr/Development/allanger/non-programming-languages'
+ 

@@ -1,0 +1,53 @@
+site_name: "That's how I'm learning"
+site_url: https://fluentbeat.online
+site_description: It's just a random domain, you know.
+
+repo_url: https://github.com/allanger/non-programming-languages
+
+nav:
+  - Home: index.md
+  - Units:
+      - pages/units/index.md
+      - "Unit 1: Pronouns": pages/units/1.pronouns.md
+extra_css:
+  - "assets/css/custom.css"
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/gitlab
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+
+markdown_extensions:
+  - tables
+  - attr_list
+
+extra_javascript:
+  - assets/javascript/tablesort.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+
+plugins:
+  - search
+  - section-index
+
+extra:
+  search:
+    lang:
+      - en
+  version:
+    provider: mike

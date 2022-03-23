@@ -1,0 +1,1 @@
+{"buildTargets":["build_mkdocs","build_mkdocs_verbose","build_mkdocs_with_confluence","install_pip_deps","prepare"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

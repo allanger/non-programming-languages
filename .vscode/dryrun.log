@@ -1,5 +1,10 @@
-make: Entering directory `/Users/nr/Development/allanger/non-programming-languages'
-pip3 install -r plugins/mkdocs-with-confluence/requirements.txt
-pip install -e plugins/mkdocs-with-confluence/
-make: Leaving directory `/Users/nr/Development/allanger/non-programming-languages'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/allanger/Development/allanger/non-programming-languages'
+pip3 install mkdocs
+pip3 install requests
+pip3 install mistune
+pip3 install md2cf
+pip3 install mkdocs-material
+pip3 install mkdocs-section-index
+make: Leaving directory '/home/allanger/Development/allanger/non-programming-languages'
  

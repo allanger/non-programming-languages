@@ -12,6 +12,8 @@ nav:
       - "Unit 1: Nouns": pages/units/1.nouns.md
   - Notes: 
     - Rating: pages/notes/rating.md
+    - Helpers: 
+      - 
 extra_css:
   - "assets/css/custom.css"
 

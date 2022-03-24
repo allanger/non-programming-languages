@@ -1,0 +1,64 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: non-programming-languages-tls
+  namespace: istio-system
+spec:
+  secretName: non-programming-languages-tls
+  commonName: languages.fluentbeat.online
+  dnsNames:
+    - languages.fluentbeat.online
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+
+---
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: non-programming-languages-gateway
+  namespace: web-hosting
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "languages.fluentbeat.online"
+      # tls:
+        # httpsRedirect: true # sends 301 redirect for http requests
+    - port:
+        number: 443
+        name: https
+        protocol: HTTPS
+      tls:
+        mode: SIMPLE
+        credentialName: non-programming-languages-tls
+      hosts:
+        - "languages.fluentbeat.online"
+        - "s3.fluentbeat.online"
+
+---
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: non-programming-languages-virtual-service
+  namespace: web-hosting
+spec:
+  hosts:
+    - "languages.fluentbeat.online"
+  gateways:
+    - non-programming-languages-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: non-programming-languages
+            port:
+              number: 80

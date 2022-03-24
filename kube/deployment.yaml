@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: non-programming-languages
+  namespace: web-hosting
+  labels:
+    app: non-programming-languages
+    author: allanger
+  annotations:
+    keel.sh/policy: force
+    keel.sh/trigger: poll
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: non-programming-languages
+  template:
+    metadata:
+      labels:
+        app: non-programming-languages
+    spec:
+      containers:
+      - name: non-programming-languages
+        image: ghcr.io/allanger/non-programming-languages:latest
+        ports:
+        - containerPort: 80
+

@@ -9,6 +9,7 @@ nav:
   - Units:
       - pages/units/index.md
       - "Unit 1: Pronouns": pages/units/1.pronouns.md
+      - "Unit 1: Nouns": pages/units/1.nouns.md
   - Notes: 
     - Rating: pages/notes/rating.md
 extra_css:

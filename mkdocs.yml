@@ -9,14 +9,15 @@ nav:
   - Units:
       - pages/units/index.md
       - "Unit 1: Pronouns": pages/units/1.pronouns.md
-      - "Unit 1: Nouns": pages/units/1.nouns.md
+      - "Unit 2: Nouns": pages/units/2.nouns.md
   - Notes: 
     - Rating: pages/notes/rating.md
-    - Helpers: 
-      - 
+  - Books:
+    - The Little Prince:
+      - 'German: Der Kleine Kinder': pages/books/little_prince/german.md
 extra_css:
-  - "assets/css/custom.css"
-
+  - assets/css/custom.css
+  - assets/css/hint.css
 theme:
   name: material
   logo: assets/logo.png
@@ -37,11 +38,20 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
+    - content.code.annotate 
+
+
 
 markdown_extensions:
+  - footnotes
   - tables
   - attr_list
-
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+          
 extra_javascript:
   - assets/javascript/tablesort.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
@@ -49,6 +59,7 @@ extra_javascript:
 plugins:
   - search
   - section-index
+  - tooltips
 
 extra:
   search:

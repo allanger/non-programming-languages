@@ -10,7 +10,7 @@ spec:
   dnsNames:
     - languages.fluentbeat.online
   issuerRef:
-    name: letsencrypt
+    name: cluster-issuer-acme-cluster-issuer 
     kind: ClusterIssuer
 
 ---
@@ -29,8 +29,8 @@ spec:
         protocol: HTTP
       hosts:
         - "languages.fluentbeat.online"
-      # tls:
-        # httpsRedirect: true # sends 301 redirect for http requests
+      tls:
+        httpsRedirect: true # sends 301 redirect for http requests
     - port:
         number: 443
         name: https
@@ -40,7 +40,6 @@ spec:
         credentialName: non-programming-languages-tls
       hosts:
         - "languages.fluentbeat.online"
-        - "s3.fluentbeat.online"
 
 ---
 apiVersion: networking.istio.io/v1beta1

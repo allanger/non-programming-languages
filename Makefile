@@ -5,6 +5,7 @@ install_pip_deps:
 	pip3 install md2cf
 	pip3 install mkdocs-material
 	pip3 install mkdocs-section-index
+	pip3 install mkdocs-tooltips
 
 prepare: install_pip_deps
 

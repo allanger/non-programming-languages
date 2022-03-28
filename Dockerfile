@@ -1,10 +1,15 @@
 FROM python:3.9.10-buster AS build-stage
 
+WORKDIR /mkdocs
 COPY . .
+
 RUN make prepare
+RUN make build_mkdocs
 
-RUN make build_mkdocs_verbose
-
-EXPOSE 80
 ENTRYPOINT ["mkdocs"]
-CMD ["serve", "--dev-addr=0.0.0.0:80"]
+CMD ["build"]
+
+FROM nginx:stable-alpine AS production-stage
+COPY --from=build-stage /mkdocs/site /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

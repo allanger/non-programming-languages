@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
  
 
-# Make data base, printed on Thu Mar 24 16:25:31 2022
+# Make data base, printed on Mon Mar 28 16:58:03 2022
 
 # Variables
 
@@ -19,10 +19,12 @@ make: *** No rule to make target `all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
- 
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
+LC_CTYPE = UTF-8
+# environment
 VSCODE_LOG_NATIVE = false
+ 
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -30,11 +32,11 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/nr/Development/allanger/non-programming-languages
+CURDIR := /Users/allanger/Library/src/non-programming-languages
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"de","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
@@ -44,17 +46,17 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-P9K_SSH = 0
+INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/f3/hgslzjcs0vs6zqqvyqy0vz640000gn/T/vscode-ipc-760acac4-996f-43d8-91b1-bf7b366b69d2.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/r0/rwcr9ng11xb720wfg_bqlhrm0000gp/T/vscode-ipc-b7925ce9-d017-4397-93ba-8e07b48fb6fa.sock
 # environment
-VSCODE_CWD = /Users/nr/Development/kci/k8s-cluster-config/helm/kwsus/kci-elasticsearch
+VSCODE_CWD = /Users/allanger/Library/src/non-programming-languages
 # environment
-PATH = /opt/homebrew/sbin:/opt/homebrew/opt/node@14/bin:/opt/homebrew/opt/gnu-getopt/bin:/Users/nr/bin:/usr/local/bin:/opt/homebrew/bin:/Users/nr/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/Library/Apple/usr/bin:/Users/nr/.cargo/bin:/Users/nr/golang
+PATH = /Users/allanger/bin:/usr/local/bin:/Users/allanger/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/Library/Apple/usr/bin:/Users/allanger/.cargo/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-GOPATH = /Users/nr/golang
+LaunchInstanceID = 75543B45-60AF-4493-AFDD-E63EF61CAA6C
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -62,35 +64,35 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.oNVxoy4P63/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.hCQywClGgm/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-GOBIN = /Users/nr/golang/bin
-# environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/nr/Development/allanger/non-programming-languages
+PWD = /Users/allanger/Library/src/non-programming-languages
 # environment
-ZSH_DISABLE_COMPFIX = true
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
+MANPATH = /opt/homebrew/share/man::
+# environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /Users/nr
+HOME = /Users/allanger
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/nr/Library/Application Support/Code/CachedData/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+VSCODE_CODE_CACHE_PATH = /Users/allanger/Library/Application Support/Code/CachedData/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
 # environment
-LOGNAME = nr
+LOGNAME = allanger
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-ZSH = /Users/nr/.oh-my-zsh
+ZSH = /Users/allanger/.oh-my-zsh
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -108,13 +110,13 @@ SHLVL = 3
 # default
 MAKE_VERSION := 3.81
 # environment
-USER = nr
+USER = allanger
 # makefile
 .DEFAULT_GOAL := install_pip_deps
 # default
 MAKECMDGOALS := all
 # environment
-TERM_SESSION_ID = w0t1p2:A28CF4FE-33F7-4E77-88A5-46C06FC48102
+TERM_SESSION_ID = w0t0p0:977D5618-1B7C-4F57-8B18-03454E7394AD
 # environment
 LESS = -R
 # automatic
@@ -126,11 +128,11 @@ TERM_PROGRAM = iTerm.app
 # default
 .VARIABLES := 
 # environment
-TMPDIR = /var/folders/f3/hgslzjcs0vs6zqqvyqy0vz640000gn/T/
+TMPDIR = /var/folders/r0/rwcr9ng11xb720wfg_bqlhrm0000gp/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/nr/Library/Application Support/Code/1.65.2-main.sock
+VSCODE_IPC_HOOK = /Users/allanger/Library/Application Support/Code/1.65.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -140,9 +142,11 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 3.5.0beta4
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.9842268.9842274.A90AC68B-42C9-4B65-9003-CA1DDB601716
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.9842268.9842274.612CD778-38B9-4ACC-9BB1-ACB22F6B0B61
 # environment
 LC_TERMINAL_VERSION = 3.5.0beta4
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -150,11 +154,13 @@ LC_TERMINAL_VERSION = 3.5.0beta4
 # environment
 TERMINFO_DIRS = /Applications/iTerm.app/Contents/Resources/terminfo:/usr/share/terminfo
 # environment
-ITERM_SESSION_ID = w0t1p2:A28CF4FE-33F7-4E77-88A5-46C06FC48102
+ITERM_SESSION_ID = w0t0p0:977D5618-1B7C-4F57-8B18-03454E7394AD
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
 COLORFGBG = 0;15
 # environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x3
+__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
 # environment
 COMMAND_MODE = unix2003
 # default
@@ -164,13 +170,11 @@ MAKEFILES :=
 # environment
 ITERM_PROFILE = Default
 # environment
-CLOUDSDK_HOME = /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
-# environment
 PAGER = less
 # environment
 LC_ALL = C
 # environment
-P9K_TTY = old
+SECURITYSESSIONID = 18bb4
 # automatic
 ^F = $(notdir $^)
 # default
@@ -182,11 +186,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-_P9K_TTY = /dev/ttys003
-# environment
-VSCODE_PID = 52432
+VSCODE_PID = 64747
 # variable set hash-table stats:
-# Load=85/1024=8%, Rehash=0, Collisions=4/108=4%
+# Load=86/1024=8%, Rehash=0, Collisions=4/109=4%
 
 # Pattern-specific Variable Values
 
@@ -194,9 +196,9 @@ VSCODE_PID = 52432
 
 # Directories
 
-# . (device 16777232, inode 12077441): 11 files, no impossibilities.
+# . (device 16777232, inode 12738486): 12 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -222,7 +224,7 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-23 13:14:56
+#  Last modified 2022-03-26 15:37:05
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -237,7 +239,7 @@ build_mkdocs_verbose:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 15):
+#  commands to execute (from `Makefile', line 16):
 	mkdocs build --verbose
 	
 
@@ -251,7 +253,7 @@ build_mkdocs:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 12):
+#  commands to execute (from `Makefile', line 13):
 	mkdocs build
 	
 
@@ -266,6 +268,7 @@ install_pip_deps:
 	pip3 install md2cf
 	pip3 install mkdocs-material
 	pip3 install mkdocs-section-index
+	pip3 install mkdocs-tooltips
 	
 
 # files hash-table stats:
@@ -281,6 +284,6 @@ install_pip_deps:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Mar 24 16:25:31 2022
+# Finished Make data base on Mon Mar 28 16:58:03 2022
 
  

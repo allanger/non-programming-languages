@@ -2,5 +2,5 @@
 
 ## German 
 
-Um etwas bitte -> Ask for something. 
-
+Um etwas bitten -> Ask for something
+einem

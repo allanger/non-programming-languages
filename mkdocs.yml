@@ -6,12 +6,11 @@ repo_url: https://github.com/allanger/non-programming-languages
 
 nav:
   - Home: index.md
-  - Units:
-      - pages/units/index.md
-      - "Unit 1: Pronouns": pages/units/1.pronouns.md
-      - "Unit 2: Nouns": pages/units/2.nouns.md
-  - Notes: 
-    - Rating: pages/notes/rating.md
+  - German:
+      - pages/german/index.md
+      - Units: 
+        - pages/german/units/index.md     
+        - Prepositions: pages/german/units/prepositions.md 
   - Books:
     - The Little Prince:
       - 'German: Der Kleine Kinder': pages/books/little_prince/german.md

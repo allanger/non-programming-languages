@@ -28,33 +28,14 @@
 <https://www.nthuleen.com/teach/grammar/stemchangeexpl.html>
 
 ### E -> I
-| Pronoun   | Geben(give) | Nehmen(take) | Essen(eat) |
-|-----------|-------------|--------------|------------|
-| Ich       | g**e**be    | n**ehm**e    | **e**sse   |
-| Du        | g**i**bst   | n**imm**st   | **i**st    |
-| Er/Sie/Es | g**i**bt    | n**imm**t    | **i**st    |
-| Wir       | g**e**ben   | n**ehm**en   | **e**ssen  |
-| Ihr       | g**e**bt    | h**ehm**t    | **e**sst   |
-| Sie       | g**e**ben   | h**enm**en   | **e**ssen  |
-
-| Pronoun   | Sprechen(speak) | Treffen(meet) | Vergessen(forget) |
-|-----------|-----------------|---------------|-------------------|
-| Ich       | spr**e**che     | tr**e**ffe    | verg**e**sse      |
-| Du        | spr**i**chst    | tr**i**ffst   | verg**i**sst      |
-| Er/Sie/Es | spr**i**cht     | tr**i**fft    | verg**i**sst      |
-| Wir       | spr**e**chen    | tr**e**ffen   | verg**e**ssen     |
-| Ihr       | spr**e**cht     | tr**e**fft    | verg**e**sst      |
-| Sie       | spr**e**chen    | tr**e**ffen   | verg**e**ssen     |
-
-
-| Pronoun   | Helfen(help) |
-|-----------|--------------|
-| Ich       | h**e**lfe    |
-| Du        | h**i**lfst   |
-| Er/Sie/Es | h**i**lft    |
-| Wir       | h**e**lfen   |
-| Ihr       | h**e**lft    |
-| Sie       | h**e**lfen   |
+| Pronoun   | Geben(give) | Nehmen(take) | Essen(eat) | Sprechen(speak) | Treffen(meet) | Vergessen(forget) | Helfen(help) |
+|-----------|-------------|--------------|------------|-----------------|---------------|-------------------|--------------|
+| Ich       | g**e**be    | n**ehm**e    | **e**sse   | spr**e**che     | tr**e**ffe    | verg**e**sse      | h**e**lfe    |
+| Du        | g**i**bst   | n**imm**st   | **i**st    | spr**i**chst    | tr**i**ffst   | verg**i**sst      | h**i**lfst   |
+| Er/Sie/Es | g**i**bt    | n**imm**t    | **i**st    | spr**i**cht     | tr**i**fft    | verg**i**sst      | h**i**lft    |
+| Wir       | g**e**ben   | n**ehm**en   | **e**ssen  | spr**e**chen    | tr**e**ffen   | verg**e**ssen     | h**e**lfen   |
+| Ihr       | g**e**bt    | h**ehm**t    | **e**sst   | spr**e**cht     | tr**e**fft    | verg**e**sst      | h**e**lft    |
+| Sie       | g**e**ben   | h**enm**en   | **e**ssen  | spr**e**chen    | tr**e**ffen   | verg**e**ssen     | h**e**lfen   |
 
 
 ### E -> IE
@@ -71,24 +52,14 @@
 
 ### A -> Ä
 
-
-| Pronoun   | Fahren(drive) | Lassen(leave) |
-|-----------|---------------|---------------|
-| Ich       | f**a**hre     | l**a**sse     |
-| Du        | f**ä**hrst    | l**ä**sst     |
-| Er/Sie/Es | f**ä**hrt     | l**ä**sst     |
-| Wir       | f**a**hren    | l**a**ssen    |
-| Ihr       | f**a**hrt     | l**a**sst     |
-| Sie       | f**a**hren    | l**a**ssen    |
-
-| Pronoun   | Laufen(run) | Schlafen(sleep) |
-|-----------|-------------|-----------------|
-| Ich       | l**au**fe   | schl**a**fe     |
-| Du        | l**äu**fst  | schl**ä**fst    |
-| Er/Sie/Es | l**äu**ft   | schl**ä**ft     |
-| Wir       | l**au**fen  | schl**a**fen    |
-| Ihr       | l**au**ft   | schl**a**ft     |
-| Sie       | l**au**fen  | schl**a**ft     |
+| Pronoun   | Fahren(drive) | Lassen(leave) | Laufen(run) | Schlafen(sleep) |
+|-----------|---------------|---------------|-------------|-----------------|
+| Ich       | f**a**hre     | l**a**sse     | l**au**fe   | schl**a**fe     |
+| Du        | f**ä**hrst    | l**ä**sst     | l**äu**fst  | schl**ä**fst    |
+| Er/Sie/Es | f**ä**hrt     | l**ä**sst     | l**äu**ft   | schl**ä**ft     |
+| Wir       | f**a**hren    | l**a**ssen    | l**au**fen  | schl**a**fen    |
+| Ihr       | f**a**hrt     | l**a**sst     | l**au**ft   | schl**a**ft     |
+| Sie       | f**a**hren    | l**a**ssen    | l**au**fen  | schl**a**ft     |
 
 ## Question words
 

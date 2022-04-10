@@ -9,8 +9,8 @@ nav:
   - German:
       - pages/german/index.md
       - Units: 
-        - pages/german/units/index.md     
-        - Prepositions: pages/german/units/prepositions.md 
+        - Unit 1: pages/german/units/unit_1.md
+        - Unit 2: pages/german/units/unit_2.md 
   - Books:
     - The Little Prince:
       - 'German: Der Kleine Kinder': pages/books/little_prince/german.md

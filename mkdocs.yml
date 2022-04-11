@@ -11,6 +11,7 @@ nav:
       - Units: 
         - Unit 1: pages/german/units/unit_1.md
         - Unit 2: pages/german/units/unit_2.md 
+        - Unit 3: pages/german/units/unit_3.md 
   - Books:
     - The Little Prince:
       - 'German: Der Kleine Kinder': pages/books/little_prince/german.md
